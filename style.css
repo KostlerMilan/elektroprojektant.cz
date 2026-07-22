@@ -78,6 +78,20 @@ a:focus {
   font-size: 1.0625rem;
 }
 
+.scope-list {
+  max-width: 32em;
+  margin: 14px auto 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 1.0625rem;
+}
+
+.scope-list li {
+  padding: 4px 0;
+}
+
 .divider {
   height: 1px;
   margin: 28px 0;
@@ -85,37 +99,6 @@ a:focus {
   background-size: 10px 1px;
   background-repeat: repeat-x;
   border: none;
-}
-
-.services h2 {
-  margin: 0 0 20px;
-  font-size: 1.375rem;
-  text-align: center;
-}
-
-.service-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-}
-
-.service-card {
-  background: var(--color-card-bg-alt);
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 18px 20px;
-}
-
-.service-card h3 {
-  margin: 0 0 8px;
-  font-size: 1.0625rem;
-  color: var(--color-accent);
-}
-
-.service-card p {
-  margin: 0;
-  color: var(--color-text-muted);
-  font-size: 0.9375rem;
 }
 
 .card-footer {
@@ -162,10 +145,6 @@ dd {
 @media (min-width: 640px) {
   .card {
     padding: 48px 56px;
-  }
-
-  .service-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .credentials,
