@@ -135,13 +135,6 @@ dd {
   font-weight: 600;
 }
 
-.copyright {
-  margin: 22px 0 0;
-  font-size: 0.8125rem;
-  color: var(--color-text-muted);
-  text-align: center;
-}
-
 .card--wide {
   max-width: 760px;
 }
